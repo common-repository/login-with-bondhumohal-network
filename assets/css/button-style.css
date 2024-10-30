@@ -1,0 +1,56 @@
+/**
+ * CSS for the Login with Bondhumohal Network - India Ka Social Network - Social Login Plugin for Bondhumohal Network
+ */
+#bondhumohal-wrapper{
+    margin: 20px 0;
+}
+#bondhumohal-wrapper a#bondhumohal-button{
+    color: #FFF;
+    background: #000000;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 0 #aaaaaa;
+    padding: 10px 20px 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+#bondhumohal-wrapper a#bondhumohal-button img{
+    box-shadow: none;
+    width: 30px;
+    padding-right: 10px;
+    box-sizing: content-box;
+    display: inline-block;
+    position: relative;
+    bottom: -10px;
+}
+.content-share__item {
+    width: 48px;
+    height: 48px;
+    line-height: 0;
+    padding: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.content-share, .content-share__icon, .content-share__item {
+    position: relative;
+    display: block;
+}
+.content-share__icon, .content-share__item {
+    border-radius: 100%;
+    background-clip: padding-box;
+}
+.bondhumohal-share{
+	background: url(../images/bondhumohal.png) no-repeat;
+    width: 48px;
+    height: 48px;
+    border: 0px;
+    line-height: 0;
+    margin-top: -8px;
+    cursor: pointer;
+    margin-left: -7px;
+}
+
+.content-share__item :hover {
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px 0px #32373c;
+}
